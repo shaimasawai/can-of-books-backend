@@ -1,6 +1,6 @@
 "use strict";
 const mongoose = require("mongoose");
-const bookschema = require("./Book model");
+const bookschema = require("./Bookmodel");
 
 const UserData = new mongoose.Schema({
   emaill: String,
